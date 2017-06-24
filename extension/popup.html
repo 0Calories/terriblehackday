@@ -15,11 +15,37 @@
         max-width: 400px;
         width: 200px;
         height: 200px;
+        position: relative;
       }
 
       #mainButton {
-          background: #e74c3c;
+        box-shadow: rgb(175, 204, 167) -5px 5px 6px 0px;
+        background-color:  #ef3f2d;
+        border-radius: 20px;
+        border: none;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 18px;
+        padding: 10px 10px 10px 10px;
+        text-decoration: none;
+        outline: none;
+        margin: 0 auto;
+        position:absolute;
+        bottom: 3%;
       }
+
+      #mainButton:hover {
+          background-color:  #dd3423;
+      }
+
+      #mainButton:active {
+          background-color:  #dd3423;
+          box-shadow: -1px 5px 6px 0px;
+          transform: translateY(4px);
+      }
+
     </style>
 
 
@@ -27,7 +53,7 @@
 
   <body>
     <div id="main">
-        <button id="mainButton">Test</button>
+        <button id="mainButton">Summon Me</button>
     </div>
   </body>
 </html>
