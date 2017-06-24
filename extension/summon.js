@@ -3,6 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 function main() {
     //alert("TEST");
-    chrome.windows.create({'url': 'annoyingwindow', 'type': 'popup'}, function(window) {
+    chrome.windows.create({'url': 'annoyingwindow.html', 'type': 'popup', 'width': 400, 'height': 400}, function(window) {
   });
 }
