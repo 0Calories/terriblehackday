@@ -1,2 +1,2 @@
 # terriblehackday
-Shitty adware chrome extension
+Annoying popup chrome extension
